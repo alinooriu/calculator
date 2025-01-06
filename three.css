@@ -1,0 +1,56 @@
+/* body {
+    background-color: black;
+    color:yellow;
+}
+.popo {
+    border: 1px solid white;
+    width: 400px;
+    text-align: left;
+    padding: 16px;
+    margin:64px  auto;
+    font-size:32px ;
+    font-family: all alyssa;
+}
+#huhu {
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    font-size: 22px;
+    background-color: rgb(163, 163, 8);
+    font-family: all alyssa;
+
+}
+#mmd {
+    background-color: transparent;
+}
+.popo  {
+    content: '/f0c9';
+}
+ */
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+#calculator {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+#additionalSection {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <link rel="stylesheet" href="./three.css">
+</head>
+<body>
+     <!-- <div class="popo">
+        <p class="mmd" >
+            <label >feet :</label>
+            <input id="huhu" type="number"   placeholder="feet" oninput="lengthConverter(this.value)"
+            onchange="lengthConverter(this.value)">
+        </p>
+        <hr>
+        <p class="mmd" id="kiki">
+            cm: <span id="outputMeters"></span>
+        </p>
+        <script>
+            function lengthConverter(valNum) {
+                document.getElementById('outputMeters') . innerHTML = valNum / 3.2808 ;
+            }
+        </script>  -->
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Calculator with Section Toggle</title>
+            <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>
+            <div id="calculator">
+                <h1>Simple Calculator</h1>
+                <input type="text" id="input" placeholder="Enter a number" />
+                <button onclick="calculate('add')">Add</button>
+                <button onclick="calculate('subtract')">Subtract</button>
+                <button onclick="calculate('showSection')">Show Section</button>
+                <div id="result"></div>
+            </div>
+        
+            <div id="additionalSection" class="hidden">
+                <h2>Additional Information</h2>
+                <p>This section appears when you click the "Show Section" button.</p>
+            </div>
+        
+            <script src="script.js"></script>
+        </body>
+        </html>
+        
+</body>
+</html>

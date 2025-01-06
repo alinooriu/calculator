@@ -1,6 +1,6 @@
 .ali {
     border: 1px solid black;
-    width: 16%;
+    width: 18%;
     height: 50%;
     margin: 64px auto;
     padding: 2%;
@@ -22,7 +22,7 @@ input {
     background-color: rgb(210, 170, 59);
     color:black;
     font-size: x-large;
-    font-family: all alyssa;    
+    /* font-family: all alyssa;     */
 }
 #clear {
     width: 100%; 
